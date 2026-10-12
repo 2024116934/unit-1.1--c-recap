@@ -1,0 +1,131 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Activity 1: Hello World",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity1_hello.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 1",
+            "setupCommands": [
+                {
+                    "description": "Enable GDB pretty-printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Activity 2: Data Types",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity2_data_types.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 2",
+            "setupCommands": [
+                {
+                    "description": "Enable GDB pretty-printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Activity 3: Loops",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity3_loops.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 3",
+            "setupCommands": [
+                {
+                    "description": "Enable GDB pretty-printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Activity 4: If...Else",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity4_if_else.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 4",
+            "setupCommands": [
+                {
+                    "description": "Enable GDB pretty-printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Activity 5: While Loops",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity5_while_loops.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 5",
+            "setupCommands": [
+                {
+                    "description": "Enable GDB pretty-printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Activity 6: Debug Practice",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/activity6_debug_practice.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "preLaunchTask": "Build Activity 6",
+            "setupCommands": [
+                {
+                    "description": "Enable GDB pretty-printing",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
