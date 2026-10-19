@@ -6,26 +6,36 @@
 // Keep the printf at the end for the bot to check your code
 
 #include <stdio.h>
-int main()
-{
-   int n;
-   printf("Enter how many numbers to sum : ");
-   // note the & before n - this is important!
-   // we will learn about this later in the course
-   scanf("%d", &n);
-   int sum = 0;
-   // create a for loop to run n times
-   // prompt the user for each number and add it to the sum
-   // hint: use scanf to each new input into a new variable (e.g. x) each time
-   // then add x to sum
-   int x;
-   for(int i = 0; i < n; i++){
-       printf("Enter a number: ");
-       scanf("%d", &x);
-       sum = sum + x;
-   }
-   
-   // leave this line as it - ELEC2645 Bot isnt smart enough to check anything else!
-   printf("Sum = %d\n", sum); 
-   return 0; // return zero to indicate the program ran ok
+// === Function prototypes (declarations) ===
+// These need to be near the top so the compiler knows that the functions
+// exist before they are called in main().
+// void means "no parameters". It is good practice to state this explicitly.
+void greet(void);
+int square(int n);
+int cube(int n);
+
+int main(void) {
+    greet();
+    int x = 10;
+    int y = square(x);
+    int z = cube(x);
+    int sum = x + y + z;
+    // y = x^2, z = x^3, sum = x + y + z
+    printf("y = %d, z = %d, sum = %d\n", y, z, sum);
+    return 0;
 }
+// === Function definitions (can be in any order now) ===
+// These contain the full code for each function.
+// They must match the prototypes at the top.
+int square(int n) {
+    return n * n;
+}
+
+int cube(int n) {
+    return n * n * n;
+}
+
+void greet(void) {
+    printf("Hello!\n");
+}
+
