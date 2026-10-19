@@ -8,16 +8,21 @@
 
 
 #include <stdio.h>
-
 int main() {
-
    int number; // variable to hold the user input
    printf("Please enter a number:\n");
+   // Read user input
+   scanf("%d", &number);
 
-   // Hint: read the user input using scanf (dont forget the & before the variable name!)
-   // Hint 2: use the modulus operator % to check if the number is even or odd
-
-
+   // if-else to check even or odd
+   if(number % 2 == 0)
+   {
+       printf("The number is even\n");
+   }
+   else
+   {
+       printf("The number is odd\n");
+   }
 
    return 0; // return zero to indicate the program ran ok 
 }

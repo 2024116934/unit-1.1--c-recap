@@ -6,6 +6,6 @@
 #include <stdio.h>
 
 int main() {
-   printf("Wello, Horld\n"); // something is wrong on this line...
+   printf("Hello, World\n"); // something is wrong on this line...
    return 0; // return zero to indicate the program ran ok 
 }
